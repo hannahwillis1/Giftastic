@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: blue;
+  margin: 20px 10% 20px 10%;
+  background-image: url("../images/colorful_dots_on_white.jpg");
+}
+
+button {
+  font-size: 24px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#colorInput {
+  font-size: 24px;
+}
+
+#searchSport {
+  font-size: 24px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+img {
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-style: solid;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 16px;
+}
+
+.imgContainer {
+  float: left;
+}
