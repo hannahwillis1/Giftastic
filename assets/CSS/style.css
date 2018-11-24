@@ -2,8 +2,13 @@ body {
   font-family: Arial;
   font-size: 24px;
   font-weight: bold;
-  background-color: blue;
-  margin: 20px 10% 20px 10%;
+  background-color: lightblue;
+  margin: 17px 17px 17px 17px;
+}
+
+sports {
+  background-color: darkblue;
+  float: center;
 }
 
 button {
@@ -12,30 +17,23 @@ button {
   border-radius: 10px;
 }
 
-#colorInput {
-  font-size: 24px;
+#search {
+  font-size: 17px;
+  margin: 17px;
+  border-radius: 17px;
+  float: center;
 }
 
-#searchSport {
-  font-size: 24px;
-  margin: 10px;
-  border-radius: 10px;
-}
-
-img {
-  margin: 10px;
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-  border-style: solid;
+#sport-list {
+  float: center;
 }
 
 #get-giftastic {
   color: white;
   border: 15px solid white;
   background-color: purple;
+  float: center;
 }
-
-/* .imgContainer {
-  float: left;
-} */
+topics {
+  background-color: darkblue;
+}
