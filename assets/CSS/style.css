@@ -4,7 +4,6 @@ body {
   font-weight: bold;
   background-color: blue;
   margin: 20px 10% 20px 10%;
-  background-image: url("../images/colorful_dots_on_white.jpg");
 }
 
 button {
@@ -31,11 +30,12 @@ img {
   border-style: solid;
 }
 
-figcaption {
-  text-align: center;
-  font-size: 16px;
+#get-giftastic {
+  color: white;
+  border: 15px solid white;
+  background-color: purple;
 }
 
-.imgContainer {
+/* .imgContainer {
   float: left;
-}
+} */
