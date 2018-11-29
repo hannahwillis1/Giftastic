@@ -13,11 +13,12 @@ var topics = {
 function init() {
   for (i = 0; i < topics.sports.length; i++) {
     console.log(topics.sports[i]);
-    $("#topics").append(
+    $("#topic").append(
       "<button class='btn-primary topic-btn'>" + topics.sports[i] + "</button>"
     );
   }
 }
+init();
 
 function search() {
   $("#giphy").html("");
